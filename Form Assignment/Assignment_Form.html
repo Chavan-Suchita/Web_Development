@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+    <title>Registration Form</title>
+    <style>
+        td{
+            width: 200px;
+        }
+    </style>
+</head>
+<body>
+    <form action="">
+       <center>
+        <table border="2" >
+        <br>
+        <tr>
+            <th colspan="4"> <br> Registration Form <br><br> </th>    
+        </tr>
+
+        <tr >
+            <td><label for=" Student Name "> Student Name </label></td>
+            <td><input type="text" name="Student Name" placeholder="First Name"> </td>
+            <td><input type="text" name="Student Name" placeholder="Middle Name"> </td>
+            <td><input type="text" name="Student Name" placeholder="Last Name"> </td>
+        </tr>
+
+        <tr>
+            <td><label for=" Father's Name "> Father's Name </label></td>
+            <td><input type="text" name="Father's Name" placeholder="Enter your father's Name"> </td>
+             <td><label for=" Mother's Name "> Mother's Name </label></td>
+            <td><input type="text" name="Mother's Name" placeholder="Enter your mother's Name"> </td>
+        </tr>
+
+        <tr>
+            <td><label for="Date Of Birth"> Date Of Birth</label></td>
+            <td><input type="date" name="Date Of Birth"> </td>
+            <td><label for="Gender"> Gender </label></td>
+            <td><input type="radio" name="Gender"> Male
+            <input type="radio" name="Gender"> Female </td>
+        </tr>
+
+        <tr>
+            <td><label for="Category"> Category </label></td>
+            <td> Gen <input type="radio" name="Category">
+                OBC <input type="radio" name="Category"> 
+                 SC/ST <input type="radio" name="Category"> </td>
+            <td><label for="Handicapped"> Handicapped </label></td>  
+            <td> Yes <input type="radio" name="Handicapped">
+                 No <input type="radio" name="Handicapped"></td>  
+        </tr>
+
+        <tr>
+            <td><label for="Ex-Serviceman"> Ex-Serviceman </label></td>
+            <td> Yes <input type="radio" name="Ex-Serviceman">
+                 No <input type="radio" name="Ex-Serviceman"></td>
+            <td><label for="EWS"> EWS </label></td>
+            <td> Yes <input type="radio" name="EWS">
+                 No <input type="radio" name="Ew"></td>
+        </tr>
+
+        <tr>
+            <td><label for="Email ID"> Email ID </label></td>
+            <td><input type="email" name="Email ID"> </td>
+            <td><label for="Mobile No."> Mobile No. </label></td>
+            <td><input type="number" name="Mobile No." maxlength="10"> </td>
+        </tr>
+
+        <tr>
+            <td> State </td>
+            <td>
+                <select name="State" id="State"> 
+                    <option value="Maharashtra">Maharashtra</option>
+                    <option value="Tamilnadu">Tamilnadu</option>
+                    <option value="Aasam">Aasam</option>
+                    <option value="Manipur">Manipur</option>
+            </select></td>
+           <td> City </td>
+           <td>
+               <select name="City" id="City" >
+                       <option value="Karad">Karad</option>
+                       <option value="Pune">Pune</option>
+                       <option value="Satara">Satara</option>
+              </select>
+        </td>
+        </tr>
+
+        <tr>
+            <td> Upload Photo </td>
+            <td><button name="Upload Photo" value="Choose File">Choose File</td>
+            <td> Upload Signature</td>
+            <td><button name="Choose File" value="Choose File">Choose File</td>  
+        </tr>
+
+        <tr>
+            <td> </td>
+            <td colspan="3"> 
+              <center><button name="Submit"> Submit </button></center> 
+            </td>
+        </tr>
+    </table>
+</center>
+    </form>
+</body>
+</html>
